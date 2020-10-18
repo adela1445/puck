@@ -1,0 +1,54 @@
+<!-- TODO ADD IN SCORES THAT ARE BEING POPULATED BY THE DATABASE, WRAP ANCHOR TAG AROUND BUTTON 
+  TODO <a href="/gamestart"></a>FOR THE BUTTON TO REDIRECT THE USER  -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Scores Page</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/lumen/bootstrap.min.css"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="stylesheets/score.css" rel="stylesheet" />
+    <link rel="icon" type="image/png" href="img/pucManFavicon.png" />
+    <audio src="sound/duckhunt.mp3" id="dogLaugh"></audio>
+  </head>
+  <body
+    id="scoreTransition"
+    background="img/stars.jpg"
+    style="text-align: center; "
+  >
+    <div class="img-container">
+      game over!
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h1 class="userName" name="user">
+            USER here
+          </h1>
+        </div>
+      </div>
+      <div class="row scoreCard">
+        <div class="col-md-6 scoreRight">SCORE
+          <p id="scores"></p>
+        </div>
+        <div class="col-md-6 levelLeft">LEVEL
+          <p id="level"></p>
+        </div>
+      </div>
+      <div class="container buttons">
+        <div class="row">
+          <button class="btn1 btn-lg" id="playAgain"><a href="/gamestart">Play Again?</a></button>
+        </div>
+        <div class="row">
+          <button class="btn btn-lg" id="returnHome"><a href="/members">Menu</a></button>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/score.js"></script>
+  </body>
+</html>

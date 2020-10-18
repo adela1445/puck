@@ -1,0 +1,50 @@
+body {
+  background-color: #222222;
+  font-family: "Press Start 2P";
+}
+.img-container {
+  text-align: center;
+  font-size: 8pc;
+  color: aquamarine;
+  font-family: "pacfontregular";
+}
+.userName {
+  font-size: 44px;
+  text-align: center;
+  color: wheat;
+}
+@font-face {
+  font-family: "pacfontregular";
+  src: url("pac-font-webfont.woff2") format("woff2"),
+    url("pac-font-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+.scoreCard {
+  color: wheat;
+  border: aliceblue;
+  border-style: groove;
+  font-size: x-large;
+  border-width: thick;
+  font-family: "pacfontregular";
+}
+p {
+  font-family: "Press Start 2P";
+}
+.scoreRight {
+  border-right-style: dotted;
+  border-width: unset;
+  border-color: rgb(210, 211, 136);
+}
+.levelLeft {
+  border-left-style: dotted;
+  border-width: unset;
+  border-color: rgb(210, 211, 136);
+}
+.buttons {
+  text-align: center;
+  margin-left: -15px;
+}
+.btn1 {
+  margin: 1pc;
+}
